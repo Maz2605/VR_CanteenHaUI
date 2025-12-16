@@ -36,7 +36,6 @@ public class HumanNPC : MonoBehaviour
     private void Update()
     {
         // Luôn giữ NPC dính mặt đất trong lúc di chuyển
-        SnapToGround();
 
         if (_isWaiting) return;
         
